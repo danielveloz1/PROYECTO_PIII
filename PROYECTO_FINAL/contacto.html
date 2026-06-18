@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PERFUMERIA  - Contacto</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><strong>PERFUMERIA</strong></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="servicios.html">Servicios</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container seccion-principal my-5">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-8 col-lg-6">
+                <div class="card p-4 shadow">
+                    <h2 class="text-center mb-4">Contacta con nosotros.</h2>
+                    <form action="#" method="POST">
+                        <div class="mb-3">
+                            <label for="nombre" class="form-label">Nombre Completo</label>
+                            <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Ej: Mateo Anchundia" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="correo" class="form-label">Correo Electrónico</label>
+                            <input type="email" class="form-control" id="correo" name="correo" placeholder="ejemplo@correo.com" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="telefono" class="form-label">Teléfono</label>
+                            <input type="tel" class="form-control" id="telefono" name="telefono" placeholder="+593 123456">
+                        </div>
+                        <div class="mb-3">
+                            <label for="mensaje" class="form-label">¿En qué podemos ayudarte?</label>
+                            <textarea class="form-control" id="mensaje" name="mensaje" rows="4" placeholder="Escribe tu mensaje aquí..." required></textarea>
+                        </div>
+                        <div class="d-grid">
+                            <button type="submit" class="btn btn-dark btn-lg">Enviar Mensaje</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <footer class="mt-5">
+        <div class="footer-main">
+        <div class="row g-4">
+    
+            
+            <div class="col-6 col-md-2">
+            <div class="footer-title">La Empresa</div>
+            <a class="footer-link" href="#">Acerca de PERFUMERIA</a>
+            <a class="footer-link" href="#">Tiendas</a>
+            </div>
+    
+            
+            <div class="col-6 col-md-3">
+            <div class="footer-title">Servicio al Cliente</div>
+            <a class="footer-link" href="#">Contáctanos</a>
+            <a class="footer-link" href="#">Centro de ayuda</a>
+            </div>
+    
+            
+            <div class="col-6 col-md-2">
+            <div class="footer-title">Mi Cuenta</div>
+            <a class="footer-link" href="#">Mis compras</a>
+            <a class="footer-link" href="#">Mis datos personales</a>
+            </div>
+    
+            
+            <div class="col-12 col-md-3">
+            <div class="footer-title">¡Suscríbete a nuestro newsletter!</div>
+            <div class="input-group mt-3 mb-3">
+                <input class="form-control" type="email" placeholder="Ingresa tu E-mail" aria-label="Ingresa tu E-mail">
+                <button class="btn btn-secondary" type="button">&#8250;</button>
+            </div>
+            <div class="payment-logos d-flex flex-wrap gap-2">
+                
+                <img src="https://imgs.search.brave.com/751-cNyRK_1LJSBLeVOynIjmxGMawgLcXmbny40WzEE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9icmFu/ZGxvZ29zLm5ldC93/cC1jb250ZW50L3Vw/bG9hZHMvMjAxNi8w/Ny9tYXN0ZXJjYXJk/LTIwMTYtMjAxOS1s/b2dvLTUxMng0MDEu/cG5n" alt="Mastercard" height="28">
+                <img src="https://imgs.search.brave.com/Acm9_9IkVh3NHP3LMTqP7TZaRSccaTqDd55g_9zd27o/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/aWNvbnNjb3V0LmNv/bS9pY29uL3ByZW1p/dW0vcG5nLTI1Ni10/aHVtYi92aXNhLWlj/b24tc3ZnLWRvd25s/b2FkLXBuZy0zMzU2/Mi5wbmc_Zj13ZWJw/Jnc9MTI4" alt="Visa" height="40">
+                <img src="https://imgs.search.brave.com/5fCrwCpberq7pZdHSlvtZjAq-Nx1vXvz12RmIQpV0XU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/aWNvbnNjb3V0LmNv/bS9pY29uL2ZyZWUv/cG5nLTI1Ni9mcmVl/LWRpbmVycy1jbHVi/LWludGVybmF0aW9u/YWwtbG9nby1pY29u/LXN2Zy1kb3dubG9h/ZC1wbmctNjc1NzE5/LnBuZz9mPXdlYnAm/dz0xMjg" alt="Diners Club" height="40">
+                <img src="https://imgs.search.brave.com/n9Xc7gxImSo3bKYzg83ucstK5ZqWMtcm7Sl_9WzU0tg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/cG5nYWxsLmNvbS93/cC1jb250ZW50L3Vw/bG9hZHMvMTUvRGlz/Y292ZXItTG9nby1Q/TkctUGhvdG8ucG5n" alt="Discover" height="40">
+            </div>
+            </div>
+    
+            
+            <div class="col-6 col-md-2">
+            <div class="footer-title">Síguenos</div>
+            <a class="social-icon" href="#" aria-label="TikTok">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1V9.01a6.33 6.33 0 00-.79-.05 6.34 6.34 0 00-6.34 6.34 6.34 6.34 0 006.34 6.34 6.34 6.34 0 006.33-6.34V9.01a8.16 8.16 0 004.77 1.52V7.1a4.85 4.85 0 01-1-.41z"/>
+                </svg>
+            </a>
+            <a class="social-icon" href="#" aria-label="Instagram">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="2" y="2" width="20" height="20" rx="5"/>
+                <circle cx="12" cy="12" r="4"/>
+                <circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/>
+                </svg>
+            </a>
+            </div>
+ 
+        </div>
+        </div>
+    
+        
+        <div class="footer-bottom d-flex flex-wrap justify-content-between align-items-center gap-2">
+        <span>Copyright &copy; 2026. Todos los derechos reservados.</span>
+        <span>Developed by <strong>PERFUMERIA</strong></span>
+        </div>
+  </footer>
+
+  
+
+</body>
+</html>
