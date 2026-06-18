@@ -28,7 +28,7 @@ background-color: #040548 !important;
   color: #0a6b63;
 }
 
-/* Newsletter */
+
 .newsletter-form {
   display: flex;
   margin-bottom: 16px;
@@ -62,7 +62,7 @@ background-color: #040548 !important;
   background: #085049;
 }
 
-/* Logos de pago */
+
 .payment-logos {
   display: flex;
   align-items: center;
@@ -71,7 +71,7 @@ background-color: #040548 !important;
   margin-top: 8px;
 }
 
-/* Redes sociales */
+
 .social-icon {
   width: 36px;
   height: 36px;
@@ -91,7 +91,7 @@ background-color: #040548 !important;
   color: #0a6b63;
 }
 
-/* Barra inferior */
+
 .footer-bottom {
   background: #f5f5f5;
   border-top: 1px solid #e0e0e0;
@@ -129,12 +129,12 @@ background-color: #040548 !important;
   position: relative;
 }
  
-/* ---- Colores de fondo por tarjeta ---- */
+
 .card-rosada .card-inner  { background: #fce4ec; }
 .card-crema  .card-inner  { background: #fff3e0; }
 .card-lavanda .card-inner { background: #ede7f6; }
  
-/* ---- Textos ---- */
+
 .card-subtitulo {
   font-size: 12px;
   font-weight: 600;
@@ -165,7 +165,7 @@ background-color: #040548 !important;
   margin-top: 12px;
 }
  
-/* ---- Badge de descuento ---- */
+
 .card-badge {
   width: 120px;
   height: 120px;
@@ -205,14 +205,13 @@ background-color: #040548 !important;
   letter-spacing: 0.05em;
 }
  
-/* ---- Imagen del producto ---- */
+
 .card-img-producto {
   max-height: 160px;
   object-fit: contain;
   margin-top: 16px;
 }
  
-/* ---- Footer de cada tarjeta ---- */
 .card-footer-promo {
   padding: 1.2rem 1.5rem;
 }
@@ -234,7 +233,7 @@ background-color: #040548 !important;
   margin-bottom: 8px;
 }
  
-.footer-link {
+.card-footer-promo .footer-link {
   font-size: 12px;
   font-weight: 700;
   color: #fff;
@@ -242,12 +241,12 @@ background-color: #040548 !important;
   letter-spacing: 0.05em;
 }
  
-.footer-link:hover {
+.card-footer-promo .footer-link:hover {
   text-decoration: underline;
   color: #fff;
 }
  
-/* ---- Responsive ---- */
+
 @media (max-width: 767px) {
   .promo-card {
     min-height: auto;
@@ -262,4 +261,3 @@ background-color: #040548 !important;
     font-size: 1.6rem;
   }
 }
-
