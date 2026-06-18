@@ -3,8 +3,6 @@ background-color: #040548 !important;
 
 }
 
-
-
 .footer-main {
   background: #fff;
   border-top: 1px solid #e0e0e0;
@@ -105,3 +103,163 @@ background-color: #040548 !important;
 .footer-bottom strong {
   color: #444;
 }
+
+
+.productos-section {
+  width: 100%;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+ 
+/* ---- Tarjeta base ---- */
+.promo-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  min-height: 560px;
+  overflow: hidden;
+}
+ 
+.card-inner {
+  flex: 1;
+  padding: 2rem 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+ 
+/* ---- Colores de fondo por tarjeta ---- */
+.card-rosada .card-inner  { background: #fce4ec; }
+.card-crema  .card-inner  { background: #fff3e0; }
+.card-lavanda .card-inner { background: #ede7f6; }
+ 
+/* ---- Textos ---- */
+.card-subtitulo {
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #555;
+  margin-bottom: 6px;
+}
+ 
+.card-titulo {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  line-height: 1.2;
+  margin-bottom: 16px;
+}
+ 
+.card-fecha {
+  font-size: 13px;
+  color: #666;
+  margin-bottom: 12px;
+}
+ 
+.card-descripcion {
+  font-size: 13px;
+  color: #555;
+  line-height: 1.5;
+  margin-top: 12px;
+}
+ 
+/* ---- Badge de descuento ---- */
+.card-badge {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background: #e91e8c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 8px 0;
+}
+ 
+.card-badge.badge-rojo {
+  background: #e53935;
+  width: 140px;
+  height: 140px;
+}
+ 
+.badge-pre {
+  font-size: 11px;
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+}
+ 
+.badge-numero {
+  font-size: 2.4rem;
+  font-weight: 900;
+  color: #fff;
+  line-height: 1;
+}
+ 
+.badge-texto {
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: 0.05em;
+}
+ 
+/* ---- Imagen del producto ---- */
+.card-img-producto {
+  max-height: 160px;
+  object-fit: contain;
+  margin-top: 16px;
+}
+ 
+/* ---- Footer de cada tarjeta ---- */
+.card-footer-promo {
+  padding: 1.2rem 1.5rem;
+}
+ 
+.bg-magenta { background: #e91e8c; }
+.bg-salmon  { background: #ff7043; }
+.bg-azul    { background: #5c6bc0; }
+ 
+.footer-titulo {
+  font-size: 15px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 4px;
+}
+ 
+.footer-sub {
+  font-size: 12px;
+  color: rgba(255,255,255,0.85);
+  margin-bottom: 8px;
+}
+ 
+.footer-link {
+  font-size: 12px;
+  font-weight: 700;
+  color: #fff;
+  text-decoration: none;
+  letter-spacing: 0.05em;
+}
+ 
+.footer-link:hover {
+  text-decoration: underline;
+  color: #fff;
+}
+ 
+/* ---- Responsive ---- */
+@media (max-width: 767px) {
+  .promo-card {
+    min-height: auto;
+    margin-bottom: 0;
+  }
+ 
+  .card-inner {
+    padding: 1.5rem 1.5rem 1rem;
+  }
+ 
+  .card-titulo {
+    font-size: 1.6rem;
+  }
+}
+
