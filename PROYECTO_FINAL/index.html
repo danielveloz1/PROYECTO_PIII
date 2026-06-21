@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PERFUMERIA - Inicio</title>
+    <title>AROMAS Y FRAGANCIAS - Inicio</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="estilos.css">
 
@@ -12,7 +12,7 @@
     <!-- Barra de navegación -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
         <div class="container">
-            <a class="navbar-brand" href="index.html"><strong>PERFUMERIA</strong></a>
+            <a class="navbar-brand" href="index.html"><strong>AROMAS Y FRAGANCIAS</strong></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
             <span class="navbar-toggler-icon"></span>
             </button>
@@ -25,9 +25,24 @@
             </div>
         </div>
     </nav>
+    <!-- Fila de categorías (va debajo del navbar principal) -->
+    <div class="cat-row">
+      <div class="cat-scroll">
+        <ul class="nav flex-nowrap justify-content-center">
+          <li class="nav-item"><a class="nav-link active" href="#">Nuevo</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Ofertas de Verano</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Perfumes</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Maquillaje</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Tamaño Mini</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Marcas</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Regalos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Promociones</a></li>
+        </ul>
+      </div>
+    </div>
     <section class="productos-section">
     <div class="container-fluid px-0">
-      <div class="row g-0">
+      <div class="row g-3">
  
         <!-- Tarjeta 1 -->
         <div class="col-12 col-md-4">
@@ -40,7 +55,7 @@
                 <span class="badge-texto">OFF</span>
               </div>
               <p class="card-descripcion">En fragancias seleccionadas<br>del 11 al 30 de junio</p>
-              <img src="perfume1.png" alt="Perfume verano" class="card-img-producto">
+              <img src="img/perfumesverano.png" alt="Perfume verano" class="card-img-producto">
             </div>
             <div class="card-footer-promo bg-magenta">
               <p class="footer-titulo">20% off en Perfumes de Verano</p>
@@ -52,6 +67,7 @@
  
         <!-- Tarjeta 2 -->
         <div class="col-12 col-md-4">
+         <a href="servicios.html" class="promo-card-link"> 
           <div class="promo-card card-crema">
             <div class="card-inner">
               <p class="card-subtitulo">Ofertas de Temporada</p>
@@ -63,31 +79,34 @@
                 <span class="badge-texto">OFF</span>
               </div>
               <p class="card-descripcion">En belleza seleccionada</p>
-              <img src="perfume2.png" alt="Fragancias destacadas" class="card-img-producto">
+              <img src="img/perfumesdestacados.webp" alt="Fragancias destacadas" class="card-img-producto">
             </div>
             <div class="card-footer-promo bg-salmon">
               <p class="footer-titulo">Hasta 50% off en Fragancias</p>
               <p class="footer-sub">Acumula puntos con cada compra</p>
-              <a href="#" class="footer-link">VER AHORA ›</a>
+              <span  class="footer-link">VER AHORA ›</span>
             </div>
           </div>
+          </a>
         </div>
  
         <!-- Tarjeta 3 -->
         <div class="col-12 col-md-4">
+          <a href="servicios.html" class="promo-card-link"> 
           <div class="promo-card card-lavanda">
             <div class="card-inner">
               <p class="card-subtitulo">Nueva Colección</p>
               <h2 class="card-titulo">Aromas<br>Irresistibles</h2>
               <p class="card-descripcion">Descubre nuestra línea premium<br>de perfumes importados</p>
-              <img src="perfume3.png" alt="Nueva colección" class="card-img-producto">
+              <img src="img/jpg.png" alt="Nueva colección" class="card-img-producto">
             </div>
             <div class="card-footer-promo bg-azul">
               <p class="footer-titulo">Hidratación Visible y Duradera</p>
               <p class="footer-sub">Obtén 20% off en marcas seleccionadas</p>
-              <a href="#" class="footer-link">NO TE LO PIERDAS ›</a>
+              <span  class="footer-link">NO TE LO PIERDAS ›</span>
             </div>
           </div>
+          </a>
         </div>
  
       </div>
@@ -159,7 +178,7 @@
         <!-- Barra inferior -->
         <div class="footer-bottom d-flex flex-wrap justify-content-between align-items-center gap-2">
         <span>Copyright &copy; 2026. Todos los derechos reservados. / Todas las marcas e imágenes usadas son propiedad de Pefumeria.</span>
-        <span>Developed by <strong>TuEmpresa</strong></span>
+        <span>Developed by <strong>Daniel Veloz, Rafael Ajila, Mateo Anchundia</strong></span>
         </div>
   </footer>
 

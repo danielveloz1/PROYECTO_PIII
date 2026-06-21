@@ -117,6 +117,19 @@ background-color: #040548 !important;
   height: 100%;
   min-height: 560px;
   overflow: hidden;
+  cursor: pointer;                                   
+  transition: transform 0.3s ease, box-shadow 0.3s ease; 
+  border-radius: 16px 
+}
+.promo-card:hover {
+  transform: scale(1.04);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.25);
+}
+.promo-card-link {
+  display: block;
+  text-decoration: none;
+   height: 100%;
+  color: inherit;
 }
  
 .card-inner {
@@ -207,9 +220,20 @@ background-color: #040548 !important;
  
 
 .card-img-producto {
-  max-height: 160px;
-  object-fit: contain;
-  margin-top: 16px;
+  height: 180px;         
+  width: auto;
+  max-width: 100%;
+  object-fit: contain;    
+  display: block;
+  margin: 0 auto;
+}
+.card-img-producto2 {
+  height: 240px;         
+  width: auto;
+  max-width: 100%;
+  object-fit: contain;    
+  display: block;
+  margin: 0 auto;
 }
  
 .card-footer-promo {
@@ -260,4 +284,34 @@ background-color: #040548 !important;
   .card-titulo {
     font-size: 1.6rem;
   }
+}
+.cat-row {
+  background: #1a1a1a;
+  padding: 0;
+}
+
+.cat-row .nav-link {
+  color: #fff;
+  font-size: 14px;
+  padding: 14px 16px;
+  white-space: nowrap;
+}
+
+.cat-row .nav-link:hover {
+  color: #ccc;
+  background: #2a2a2a;
+}
+
+.cat-row .nav-link.active {
+  font-weight: 600;
+  border-bottom: 2px solid #fff;
+}
+
+.cat-scroll {
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.cat-scroll::-webkit-scrollbar {
+  display: none;
 }
